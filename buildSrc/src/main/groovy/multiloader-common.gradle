@@ -9,8 +9,8 @@ base {
 
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(java_version)
-    // withSourcesJar()
-    // withJavadocJar()
+    withSourcesJar()
+    withJavadocJar()
 }
 
 repositories {
