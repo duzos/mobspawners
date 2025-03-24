@@ -112,7 +112,7 @@ jobs:
         run: ./gradlew -p forge Data
         continue-on-error: true
 
-      - name: Build Forge
+      - name: Build NeoForge
         run: ./gradlew -p neoforge build
 
 
@@ -120,7 +120,7 @@ jobs:
         uses: DrTheodor/discord-webhook-upload-action@v1.2
         with:
           url: ${{ secrets.DEV_BUILDS }}
-          file: 'forge/build/libs/*'
+          file: 'neoforge/build/libs/*'
           username: NEOFORGE builds
           avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXA4X8mmDNJHpXHgU_ndkcOz8kqU10qp2EA&s'
           commit: '> :sparkles: [%MESSAGE%](<%LINK%>) by [%AUTHOR%](<%AUTHOR_LINK%>)'
