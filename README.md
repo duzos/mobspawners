@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://cdn.modrinth.com/data/BjIlwws2/0eacd556e2072a8149e2c85061821235dab39a06_96.webp" height="96" alt="Force-Load Spawners">
+
 # Force Load Spawners
 
 ### Keep mob spawners running even when nobody's nearby. Server-side only.
