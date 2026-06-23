@@ -20,7 +20,7 @@
 
 A multi-loader (Fabric / Forge / NeoForge) mod that lets you **force-load the chunk a mob spawner sits in**, so it keeps spawning mobs even when no player is around. Great for AFK and away-from-base mob farms.
 
-It's **server-side only** — it doesn't need to be installed on the client.
+It's **server-side only** - it doesn't need to be installed on the client.
 
 ## How to use it
 
