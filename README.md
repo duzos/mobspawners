@@ -1,18 +1,43 @@
-# Mobspawner Mod
-## A Neo/Forge/Fabric mod aimed at adding the ability to force-load mob spawners into the game.
-## Serverside Only!
-***by duzo***
+<div align="center">
 
-[<img alt="curseforge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://www.curseforge.com/minecraft/mc-mods/force-load-spawners) <!-- SVG version -->
-[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/forcedspawner) <!-- SVG version -->
-[<img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">](https://fabricmc.net/) <!-- SVG version -->
-[<img alt="forge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg">](https://files.minecraftforge.net) <!-- SVG version -->
+# Force Load Spawners
 
-## What does this mod do?
-This mod adds the ability to force-load the chunks of mob spawners, allowing them to spawn mobs even when the player is not around. This is useful for mob farms, as it allows the player to leave the area and still have mobs spawn in the farm.
+### Keep mob spawners running even when nobody's nearby. Server-side only.
 
-## How do I use this mod?
-To use this mod, simply place a mob spawner in the world and right-click it with a netherite ingot. The mob spawner will now be force-loaded, and blue flames will appear around it to indicate that it is active. To deactivate the force-loading, simply right-click the mob spawner with an empty hand.
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.4-62B47A?style=for-the-badge)
 
-## What are the requirements for this mod?
-This mod requires the Fabric or Forge mod loader to be installed. It is serverside only, so it does not need to be installed on the client.
+[<img alt="curseforge" height="52" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://www.curseforge.com/minecraft/mc-mods/force-load-spawners)
+[<img alt="modrinth" height="52" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/forcedspawner)
+[<img alt="fabric" height="52" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">](https://fabricmc.net/)
+[<img alt="neoforge" height="52" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/neoforge_vector.svg">](https://neoforged.net/)
+[<img alt="forge" height="52" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg">](https://files.minecraftforge.net)
+
+**by [Duzo](https://duzo.is-a.dev/)**
+
+</div>
+
+## What is it?
+
+A multi-loader (Fabric / Forge / NeoForge) mod that lets you **force-load the chunk a mob spawner sits in**, so it keeps spawning mobs even when no player is around. Great for AFK and away-from-base mob farms.
+
+It's **server-side only** — it doesn't need to be installed on the client.
+
+## How to use it
+
+- **Activate:** right-click a mob spawner with a **netherite ingot**. Blue flames appear around it to show it's force-loaded and active.
+- **Deactivate:** right-click the spawner again with an **empty hand**.
+
+## Requirements
+
+- Minecraft **1.21.4**
+- The **Fabric**, **Forge**, or **NeoForge** mod loader (server-side)
+
+## Links
+
+- [Modrinth](https://modrinth.com/mod/forcedspawner)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/force-load-spawners)
+- [GitHub](https://github.com/duzos/mobspawners)
+
+## Credits
+
+By [Duzo](https://duzo.is-a.dev/).
